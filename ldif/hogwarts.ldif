@@ -1,0 +1,195 @@
+dn: ou=teachers,dc=hogwarts,dc=com
+objectClass: organizationalUnit
+ou: teachers
+
+dn: cn=adumbledore,ou=teachers,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: adumbledore
+sn: Dumbledore
+givenName: Albus
+displayName: Albus Dumbledore
+mail: albus.dumbledore@hogwarts.edu
+userPassword: password
+
+dn: cn=mmcgonagall,ou=teachers,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: mmcgonagall
+sn: McGonagall
+givenName: Minerva
+displayName: Minerva McGonagall
+mail: minerva.mcgonagall@hogwarts.edu
+userPassword: password
+
+dn: cn=ssnape,ou=teachers,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: ssnape
+sn: Snape
+givenName: Severus
+displayName: Severus Snape
+mail: severus.snape@hogwarts.edu
+userPassword: password
+
+dn: cn=rhagrid,ou=teachers,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: rhagrid
+sn: Hagrid
+givenName: Rubeus
+displayName: Rubeus Hagrid
+mail: rubeus.hagrid@hogwarts.edu
+userPassword: password
+
+dn: ou=students,dc=hogwarts,dc=com
+objectClass: organizationalUnit
+ou: students
+
+dn: ou=gryffindor,ou=students,dc=hogwarts,dc=com
+objectClass: organizationalUnit
+ou: gryffindor
+
+dn: cn=hpotter,ou=gryffindor,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: hpotter
+sn: Potter
+givenName: Harry
+displayName: Harry Potter
+mail: harry.potter@hogwarts.edu
+userPassword: password
+
+dn: cn=rweasley,ou=gryffindor,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: rweasley
+sn: Weasley
+givenName: Ron
+displayName: Ron Weasley
+mail: ron.weasley@hogwarts.edu
+userPassword: password
+
+dn: cn=hgranger,ou=gryffindor,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: hgranger
+sn: Granger
+givenName: Hermione
+displayName: Hermione Granger
+mail: hermione.granger@hogwarts.edu
+userPassword: password
+
+dn: ou=hufflepuff,ou=students,dc=hogwarts,dc=com
+objectClass: organizationalUnit
+ou: hufflepuff
+
+dn: cn=cdiggory,ou=hufflepuff,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: cdiggory
+sn: Diggory
+givenName: Cedric
+displayName: Cedric Diggory
+mail: cedric.diggory@hogwarts.edu
+userPassword: password
+
+dn: cn=habbott,ou=hufflepuff,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: habbott
+sn: Abbott
+givenName: Hannah
+displayName: Hannah Abbott
+mail: hannah.abbott@hogwarts.edu
+userPassword: password
+
+dn: cn=emacmillan,ou=hufflepuff,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: emacmillan
+sn: Macmillan
+givenName: Ernie
+displayName: Ernie Macmillan
+mail: ernie.macmillan@hogwarts.edu
+userPassword: password
+
+dn: ou=ravenclaw,ou=students,dc=hogwarts,dc=com
+objectClass: organizationalUnit
+ou: ravenclaw
+
+dn: cn=llovegood,ou=ravenclaw,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: llovegood
+sn: Lovegood
+givenName: Luna
+displayName: Luna Lovegood
+mail: luna.lovegood@hogwarts.edu
+userPassword: password
+
+dn: cn=ppatil,ou=ravenclaw,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: ppatil
+sn: Patil
+givenName: Padma
+displayName: Padma Patil
+mail: padma.patil@hogwarts.edu
+userPassword: password
+
+dn: cn=cchang,ou=ravenclaw,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: cchang
+sn: Chang
+givenName: Cho
+displayName: Cho Chang
+mail: cho.chang@hogwarts.edu
+userPassword: password
+
+dn: ou=slytherin,ou=students,dc=hogwarts,dc=com
+objectClass: organizationalUnit
+ou: slytherin
+
+dn: cn=triddle,ou=slytherin,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: triddle
+sn: Riddle
+givenName: Tom
+displayName: Tom Riddle
+mail: tom.riddle@hogwarts.edu
+userPassword: password
+
+dn: cn=dmalfoy,ou=slytherin,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: dmalfoy
+sn: Malfoy
+givenName: Draco
+displayName: Draco Malfoy
+mail: draco.malfoy@hogwarts.edu
+userPassword: password
+
+dn: cn=pparkinson,ou=slytherin,ou=students,dc=hogwarts,dc=com
+objectClass: inetOrgPerson
+cn: pparkinson
+sn: Parkinson
+givenName: Pansy
+displayName: Pansy Parkinson
+mail: pansy.parkinson@hogwarts.edu
+userPassword: password
+
+dn: cn=gryffindor,ou=students,dc=hogwarts,dc=com
+objectClass: groupOfNames
+cn: gryffindor
+member: cn=hpotter,ou=gryffindor,ou=students,dc=hogwarts,dc=com
+member: cn=rweasley,ou=gryffindor,ou=students,dc=hogwarts,dc=com
+member: cn=hgranger,ou=gryffindor,ou=students,dc=hogwarts,dc=com
+
+dn: cn=hufflepuff,ou=students,dc=hogwarts,dc=com
+objectClass: groupOfNames
+cn: hufflepuff
+member: cn=cdiggory,ou=hufflepuff,ou=students,dc=hogwarts,dc=com
+member: cn=habbott,ou=hufflepuff,ou=students,dc=hogwarts,dc=com
+member: cn=emacmillan,ou=hufflepuff,ou=students,dc=hogwarts,dc=com
+
+dn: cn=ravenclaw,ou=students,dc=hogwarts,dc=com
+objectClass: groupOfNames
+cn: ravenclaw
+member: cn=llovegood,ou=ravenclaw,ou=students,dc=hogwarts,dc=com
+member: cn=ppatil,ou=ravenclaw,ou=students,dc=hogwarts,dc=com
+member: cn=cchang,ou=ravenclaw,ou=students,dc=hogwarts,dc=com
+
+dn: cn=slytherin,ou=students,dc=hogwarts,dc=com
+objectClass: groupOfNames
+cn: slytherin
+member: cn=triddle,ou=slytherin,ou=students,dc=hogwarts,dc=com
+member: cn=dmalfoy,ou=slytherin,ou=students,dc=hogwarts,dc=com
+member: cn=pparkinson,ou=slytherin,ou=students,dc=hogwarts,dc=com
